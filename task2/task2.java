@@ -34,7 +34,7 @@ public class task2 {
         }
     }
     public static double calculateUn(int n) {
-        if(n < 0) {System.out.println("Для отрицательных чисел факториал не имеет смысла"); return -1; }
+        if(n < 0) return -1;
         double sum = 0;
         double factorial = 1;
         for (int i = 1; i <= n; i++) {
